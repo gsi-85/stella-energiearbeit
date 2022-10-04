@@ -22,11 +22,11 @@ body {
       padding: 10px 10px; /* make padding smaller if screen size under 600 px */
     }
   }
-  @media (max-width: 1200px) {
+/*  @media (max-width: 1200px) {
     #behandlung img.img-fluid {
-      width: 10% !important; /* make padding smaller if screen size under 600 px */
-    }
-  }
+      width: 10% !important; */ /* make padding smaller if screen size under 600 px */
+   /* }
+  } */
   .container-sm {
     margin-top: 20px;
   }
@@ -121,6 +121,27 @@ body {
     font-weight: 400;
     letter-spacing: 0px;
     font-size: 30px;
+  }
+  @media (max-width: 710px) {
+    .bottom-head-img {
+      top: 90%;
+      left: 50%;
+      font-size: 25px; /* make padding smaller if screen size under 600 px */
+    }
+  }
+  @media (max-width: 590px) {
+    .bottom-head-img {
+      top: 90%;
+      left: 50%;
+      font-size: 20px; /* make padding smaller if screen size under 600 px */
+    }
+  }
+  @media (max-width: 475px) {
+    .bottom-head-img {
+      top: 90%;
+      left: 50%;
+      font-size: 15px; /* make padding smaller if screen size under 600 px */
+    }
   }
 .carousel {
   background-color: #CC9797;

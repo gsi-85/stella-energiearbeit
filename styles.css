@@ -237,7 +237,7 @@ body {
     color: #f5f5f5;
     font-size: 20px;
   }
-  footer a:hover {
+  footer a:hover a:after {
     color: #CC9797;
     text-decoration: none;
   }

@@ -262,3 +262,7 @@ body {
     color: white;
     text-decoration: none;
   }
+  @media screen and (max-device-width: 480px){
+    .social-mail{
+      -webkit-text-size-adjust: none;
+    }

@@ -122,9 +122,6 @@ body {
     letter-spacing: 0px;
     font-size: 30px;
   }
-  .pinkcolor {
-    color: #CC9797;
-  }
   @media (max-width: 710px) {
     .bottom-head-img {
       top: 90%;
@@ -222,6 +219,17 @@ body {
     padding: 15px;
     margin: 15px;
   }
+  @media (min-width: 1100px) {
+    .stella {
+      max-width: 75%;
+    }
+  }
+  @media (min-width: 1500px) {
+    .stella {
+      max-width: 60%;
+    }
+  }
+
   textarea {
     resize: none;
   }

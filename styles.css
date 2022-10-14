@@ -255,7 +255,7 @@ body {
     text-decoration: none;
   }
   .social-mail{
-    font-size: 14px;
+    font-size: 1px;
     text-decoration: none;
   }
   .contact, a {
@@ -266,3 +266,4 @@ body {
     .social-mail{
       -webkit-text-size-adjust: none;
     }
+  }

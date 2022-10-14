@@ -254,8 +254,13 @@ body {
     color: white;
     text-decoration: none;
   }
-  .social-mail{
+  .social p{
     font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  .social-mail{
+    font-size: 15px !important;
     text-decoration: none;
   }
   .contact, a {
